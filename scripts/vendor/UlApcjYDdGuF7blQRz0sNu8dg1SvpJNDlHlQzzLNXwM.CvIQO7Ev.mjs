@@ -182,8 +182,8 @@ var I,
                         layoutDependency: S,
                         layoutId: `onOQ0YrdY`,
                         style: {
-                          mask: `url('https://framerusercontent.com/images/pGiXYozQ3mE4cilNOItfe2L2fUA.svg') alpha no-repeat center / cover add`,
-                          WebkitMask: `url('https://framerusercontent.com/images/pGiXYozQ3mE4cilNOItfe2L2fUA.svg') alpha no-repeat center / cover add`,
+                          mask: `url('../../assets/images/pGiXYozQ3mE4cilNOItfe2L2fUA.svg') alpha no-repeat center / cover add`,
+                          WebkitMask: `url('../../assets/images/pGiXYozQ3mE4cilNOItfe2L2fUA.svg') alpha no-repeat center / cover add`,
                         },
                         children: a(I, {
                           __framer__loop: G,

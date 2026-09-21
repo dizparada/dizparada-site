@@ -2,12 +2,54 @@
   "source": "https://dizparada.com/",
   "platform": "framer",
   "captureMode": "html-with-runtime",
-  "generatedAt": "2026-09-21T19:55:54.593Z",
-  "assets": 207,
-  "failedAssets": [],
-  "subpages": 0,
+  "generatedAt": "2026-09-21T20:39:12.647Z",
+  "assets": 585,
+  "failedAssets": [
+    {
+      "url": "https://hagen.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a3ebdcd79e9ff437/U8XswnDa52ljfe8dEUC7qci7Dp3SJqzsydSdt4vxHqE-1790022992-1.2.1.1-2KqB1GXqct.AKCT1Y8C.XQard1icLWRe7wr95Sdn0DeGA60gjsUEjTcSNHiM8MHO",
+      "message": "HTTP 204"
+    },
+    {
+      "url": "https://www.youtube.com/ptracking?html5=1&video_id=tRz_TJ3gBuE&cpn=8YZU7vxwfZLTwL6o&ei=2pSxat6KFdmKvdIPlOeQ-Ao&ptk=youtube_none&pltype=contentugc",
+      "message": "HTTP 204"
+    },
+    {
+      "url": "https://www.youtube.com/ptracking?html5=1&video_id=Tgl6ri_mmUc&cpn=0bV_4kAoznlfFpQX&ei=QpWxatfBBLDJmLAPj_fo8QU&ptk=youtube_none&pltype=contentugc",
+      "message": "HTTP 204"
+    },
+    {
+      "url": "https://dizparada.com/blog/failed-asset-upload-placeholder",
+      "message": "HTTP 404"
+    },
+    {
+      "url": "https://www.youtube.com/img/meh7.png",
+      "message": "HTTP 404"
+    },
+    {
+      "url": "https://framerusercontent.com/images/8jAs54C40LMnM853ADpjcTIQw.gif",
+      "message": "Asset download timeout"
+    },
+    {
+      "url": "https://framerusercontent.com/images/8jAs54C40LMnM853ADpjcTIQw.gif?scale-down-to=512&width=2276&height=1858",
+      "message": "Asset download timeout"
+    },
+    {
+      "url": "https://framerusercontent.com/images/8jAs54C40LMnM853ADpjcTIQw.gif?scale-down-to=1024&width=2276&height=1858",
+      "message": "Asset download timeout"
+    },
+    {
+      "url": "https://framerusercontent.com/images/8jAs54C40LMnM853ADpjcTIQw.gif?scale-down-to=2048&width=2276&height=1858",
+      "message": "Asset download timeout"
+    },
+    {
+      "url": "https://framerusercontent.com/images/8jAs54C40LMnM853ADpjcTIQw.gif?width=2276&height=1858",
+      "message": "Asset download timeout"
+    }
+  ],
+  "subpages": 19,
   "visualValidation": "not-run",
   "limitations": [
-    "Server-side accounts, payments, search and form processing are not exported."
+    "Server-side accounts, payments, search and form processing are not exported.",
+    "Some assets could not be saved; remote fallback URLs may require network access."
   ]
 }

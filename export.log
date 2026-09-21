@@ -1,50 +1,193 @@
-[19:55:38] [info] Source   : https://dizparada.com
-[19:55:38] [info] Output   : /tmp/dizparada-export
-[19:55:38] [info] Platform : Framer
-[19:55:38] [info] DPR      : 1
-[19:55:38] [info] Subpages : disabled (pass --subpages to crawl the whole site)
-[19:55:38] [log] Output directory structure created
-[19:55:38] [log] Fetching SSR HTML from https://dizparada.com
-[19:55:38] [ok] SSR HTML fetched (487.6 KB)
-[19:55:38] [log] Launching headless Chromium...
-[19:55:41] [ok] Chromium launched
-[19:55:41] [log] Stealth hardening applied (Chrome 148.0.7778.97)
-[19:55:41] [log] Viewport set to 1440x900 at 1x DPR
-[19:55:41] [log] Blocking 8 tracking domains:
-[19:55:41] [log]   - sentry.io
-[19:55:41] [log]   - www.googletagmanager.com
-[19:55:41] [log]   - connect.facebook.net
-[19:55:41] [log]   - stats.g.doubleclick.net
-[19:55:41] [log]   - google-analytics.com
-[19:55:41] [log]   - events.framer.com
-[19:55:41] [log]   - api.framer.com
-[19:55:41] [log]   - collect.frameranalytics.com
-[19:55:41] [log] Network interception enabled
-[19:55:41] [info] Navigating to https://dizparada.com
-[19:55:42] [ok] Document loaded; waiting for page content and resources
-[19:55:42] [log] Intercepted 0 resources, blocked 0 tracking requests, skipped 0 platform assets
-[19:55:42] [log] Checking DOM-based platform detection...
-[19:55:42] [log] Hydration content found: #main
-[19:55:47] [log] Waiting for font layout and response bodies
-[19:55:47] [log] Resources settled
-[19:55:47] [log] Captured HTML and CSSOM (501.7 KB)
-[19:55:47] [ok] Captured 79 network resources total
-[19:55:47] [log]   CSS: 0 | JS: 54 | Images: 22 | Fonts: 3
-[19:55:47] [log] Browser closed
-[19:55:47] [ok] Queued 108 resource(s) declared in HTML but never requested
-[19:55:47] [log] Starting download of 187 assets and their CSS/HTML dependencies
-[19:55:51] [ok] Downloads complete: 187 succeeded, 79 from cache
-[19:55:52] [ok] Lazy-loaded chunks resolved: 20
-[19:55:52] [log] Starting HTML post-processing...
-[19:55:52] [log] HTML size: 501.7 KB
-[19:55:52] [ok] Index HTML pipeline complete
-[19:55:52] [log] Rewrote URLs in 39 JS/CSS files
-[19:55:52] [warn] Rewrite pattern matched nothing: /\(function\(\)\{[\w$]+&&[\w$]+\(\(\)=>\{[\s\S]{0,200}?__framer-badge-container[\s\S]{0,300}?\}\)\}\)\(\)/g
-[19:55:52] [ok] Captured asset URLs rewritten to local paths
-[19:55:54] [ok] Formatted 74/74 JS/MJS files
-[19:55:54] [log] Writing index.html (514.9 KB)...
-[19:55:54] [ok] index.html written
-[19:55:54] [log] serve.js written
-[19:55:54] [log] package.json written for serve.js
-[19:55:54] [ok] Output build complete
-[19:55:54] [ok] Export complete!
+[20:33:50] [info] Source   : https://dizparada.com
+[20:33:50] [info] Output   : /tmp/dizparada-subpages
+[20:33:50] [info] Platform : Framer
+[20:33:50] [info] DPR      : 1
+[20:33:50] [info] Subpages : enabled
+[20:33:50] [log] Output directory structure created
+[20:33:50] [log] Fetching SSR HTML from https://dizparada.com
+[20:33:50] [ok] SSR HTML fetched (487.6 KB)
+[20:33:50] [log] Launching headless Chromium...
+[20:33:51] [ok] Chromium launched
+[20:33:51] [log] Stealth hardening applied (Chrome 148.0.7778.97)
+[20:33:51] [log] Viewport set to 1440x900 at 1x DPR
+[20:33:51] [log] Blocking 8 tracking domains:
+[20:33:51] [log]   - sentry.io
+[20:33:51] [log]   - www.googletagmanager.com
+[20:33:51] [log]   - connect.facebook.net
+[20:33:51] [log]   - stats.g.doubleclick.net
+[20:33:51] [log]   - google-analytics.com
+[20:33:51] [log]   - events.framer.com
+[20:33:51] [log]   - api.framer.com
+[20:33:51] [log]   - collect.frameranalytics.com
+[20:33:51] [log] Network interception enabled
+[20:33:51] [info] Navigating to https://dizparada.com
+[20:33:51] [ok] Document loaded; waiting for page content and resources
+[20:33:51] [log] Intercepted 2 resources, blocked 0 tracking requests, skipped 0 platform assets
+[20:33:51] [log] Checking DOM-based platform detection...
+[20:33:52] [log] Hydration content found: #main
+[20:33:57] [log] Waiting for font layout and response bodies
+[20:33:57] [log] Resources settled
+[20:33:57] [log] Captured HTML and CSSOM (501.7 KB)
+[20:33:57] [ok] Captured 79 network resources total
+[20:33:57] [log]   CSS: 0 | JS: 54 | Images: 22 | Fonts: 3
+[20:33:57] [log] Scanning page for internal links...
+[20:33:57] [log] Found 14 sub-page links on the home page
+[20:33:57] [log]   Navigating to sub-page: https://dizparada.com/about
+[20:33:58] [log] Hydration content found: #main
+[20:34:02] [log] Waiting for font layout and response bodies
+[20:34:02] [log] Resources settled
+[20:34:02] [log]   Sub-page fetched: 247.5 KB
+[20:34:02] [log]   Saved: subpages/about.html
+[20:34:02] [log]   Navigating to sub-page: https://dizparada.com/blog
+[20:34:03] [log] Hydration content found: #main
+[20:34:08] [log] Waiting for font layout and response bodies
+[20:34:08] [log] Resources settled
+[20:34:08] [log]   Sub-page fetched: 328.5 KB
+[20:34:08] [log]   Saved: subpages/blog.html
+[20:34:08] [log]   Discovered 5 new link(s) on blog
+[20:34:08] [log]   Navigating to sub-page: https://dizparada.com/contact
+[20:34:09] [log] Hydration content found: #main
+[20:34:13] [log] Waiting for font layout and response bodies
+[20:34:13] [log] Resources settled
+[20:34:13] [log]   Sub-page fetched: 206.8 KB
+[20:34:13] [log]   Saved: subpages/contact.html
+[20:34:13] [log]   Navigating to sub-page: https://dizparada.com/work/pagerduty-advance-ai
+[20:34:13] [log] Hydration content found: #main
+[20:34:19] [log] Waiting for font layout and response bodies
+[20:34:19] [log] Resources settled
+[20:34:19] [log]   Sub-page fetched: 267.5 KB
+[20:34:19] [log]   Saved: subpages/work_pagerduty-advance-ai.html
+[20:34:19] [log]   Navigating to sub-page: https://dizparada.com/work/pcf
+[20:34:20] [log] Hydration content found: #main
+[20:34:26] [log] Waiting for font layout and response bodies
+[20:34:26] [log] Resources settled
+[20:34:26] [log]   Sub-page fetched: 266.7 KB
+[20:34:26] [log]   Saved: subpages/work_pcf.html
+[20:34:26] [log]   Navigating to sub-page: https://dizparada.com/work/act
+[20:34:27] [log] Hydration content found: #main
+[20:34:33] [log] Waiting for font layout and response bodies
+[20:34:33] [log] Resources settled
+[20:34:33] [log]   Sub-page fetched: 269.5 KB
+[20:34:33] [log]   Saved: subpages/work_act.html
+[20:34:33] [log]   Navigating to sub-page: https://dizparada.com/work/frames
+[20:34:34] [log] Hydration content found: #main
+[20:34:42] [log] Waiting for font layout and response bodies
+[20:34:42] [log] Resources settled
+[20:34:42] [log]   Sub-page fetched: 285.3 KB
+[20:34:42] [log]   Saved: subpages/work_frames.html
+[20:34:42] [log]   Navigating to sub-page: https://dizparada.com/work/moviepass
+[20:34:42] [log] Hydration content found: #main
+[20:34:56] [log] Network idle timeout reached (continuing anyway)
+[20:34:56] [log] Waiting for font layout and response bodies
+[20:34:56] [log] Resources settled
+[20:34:56] [log]   Sub-page fetched: 250.4 KB
+[20:34:56] [log]   Saved: subpages/work_moviepass.html
+[20:34:56] [log]   Navigating to sub-page: https://dizparada.com/work/advertio
+[20:34:57] [log] Hydration content found: #main
+[20:35:10] [log] Network idle timeout reached (continuing anyway)
+[20:35:10] [log] Waiting for font layout and response bodies
+[20:35:10] [log] Resources settled
+[20:35:10] [log]   Sub-page fetched: 280.5 KB
+[20:35:10] [log]   Saved: subpages/work_advertio.html
+[20:35:10] [log]   Navigating to sub-page: https://dizparada.com/blog/why-figma-designs-never-quite-match-the-final-product-and-how-ai-is-finally-fixing-it
+[20:35:11] [log] Hydration content found: #main
+[20:35:24] [log] Network idle timeout reached (continuing anyway)
+[20:35:24] [log] Waiting for font layout and response bodies
+[20:35:24] [log] Resources settled
+[20:35:24] [log]   Sub-page fetched: 304.1 KB
+[20:35:24] [log]   Saved: subpages/blog_why-figma-designs-never-quite-match-the-final-product-and-how-ai-is-finally-fixing-it.html
+[20:35:24] [log]   Navigating to sub-page: https://dizparada.com/blog/i-built-a-design-system-skill-for-claude-code
+[20:35:25] [log] Hydration content found: #main
+[20:35:37] [log] Network idle timeout reached (continuing anyway)
+[20:35:37] [log] Waiting for font layout and response bodies
+[20:35:37] [log] Resources settled
+[20:35:37] [log]   Sub-page fetched: 293.5 KB
+[20:35:37] [log]   Saved: subpages/blog_i-built-a-design-system-skill-for-claude-code.html
+[20:35:37] [log]   Navigating to sub-page: https://dizparada.com/blog/designing-ai-ux-patterns-at-pagerduty
+[20:35:38] [log] Hydration content found: #main
+[20:35:51] [log] Network idle timeout reached (continuing anyway)
+[20:35:51] [log] Waiting for font layout and response bodies
+[20:35:51] [log] Resources settled
+[20:35:51] [log]   Sub-page fetched: 304.6 KB
+[20:35:51] [log]   Saved: subpages/blog_designing-ai-ux-patterns-at-pagerduty.html
+[20:35:51] [log]   Navigating to sub-page: https://dizparada.com/blog/creating-a-schedules-agent-during-pagerduty-hack-week
+[20:35:52] [log] Hydration content found: #main
+[20:36:04] [log] Network idle timeout reached (continuing anyway)
+[20:36:04] [log] Waiting for font layout and response bodies
+[20:36:04] [log] Resources settled
+[20:36:04] [log]   Sub-page fetched: 288.1 KB
+[20:36:04] [log]   Saved: subpages/blog_creating-a-schedules-agent-during-pagerduty-hack-week.html
+[20:36:04] [log]   Navigating to sub-page: https://dizparada.com/blog/web-design-trends-to-watch-in-2025
+[20:36:05] [log] Hydration content found: #main
+[20:36:17] [log] Network idle timeout reached (continuing anyway)
+[20:36:17] [log] Waiting for font layout and response bodies
+[20:36:17] [log] Resources settled
+[20:36:17] [log]   Sub-page fetched: 292.1 KB
+[20:36:17] [log]   Saved: subpages/blog_web-design-trends-to-watch-in-2025.html
+[20:36:17] [log]   Navigating to sub-page: https://dizparada.com/blog/improve-experience-for-pagerduty-webhooks-migration-in-servicenow
+[20:36:18] [log] Hydration content found: #main
+[20:36:30] [log] Network idle timeout reached (continuing anyway)
+[20:36:30] [log] Waiting for font layout and response bodies
+[20:36:30] [log] Resources settled
+[20:36:30] [log]   Sub-page fetched: 297.6 KB
+[20:36:30] [log]   Saved: subpages/blog_improve-experience-for-pagerduty-webhooks-migration-in-servicenow.html
+[20:36:30] [log]   Navigating to sub-page: https://dizparada.com/blog/design-for-digital-sustainability
+[20:36:31] [log] Hydration content found: #main
+[20:36:43] [log] Network idle timeout reached (continuing anyway)
+[20:36:43] [log] Waiting for font layout and response bodies
+[20:36:43] [log] Resources settled
+[20:36:43] [log]   Sub-page fetched: 297.3 KB
+[20:36:43] [log]   Saved: subpages/blog_design-for-digital-sustainability.html
+[20:36:43] [log]   Navigating to sub-page: https://dizparada.com/blog/microinteractions
+[20:36:44] [log] Hydration content found: #main
+[20:36:56] [log] Network idle timeout reached (continuing anyway)
+[20:36:56] [log] Waiting for font layout and response bodies
+[20:36:56] [log] Resources settled
+[20:36:57] [log]   Sub-page fetched: 296.3 KB
+[20:36:57] [log]   Saved: subpages/blog_microinteractions.html
+[20:36:57] [log]   Navigating to sub-page: https://dizparada.com/blog/the-hitchikersguide-to-product-discovery
+[20:36:57] [log] Hydration content found: #main
+[20:37:10] [log] Network idle timeout reached (continuing anyway)
+[20:37:10] [log] Waiting for font layout and response bodies
+[20:37:10] [log] Resources settled
+[20:37:10] [log]   Sub-page fetched: 304.6 KB
+[20:37:10] [log]   Saved: subpages/blog_the-hitchikersguide-to-product-discovery.html
+[20:37:10] [log]   Navigating to sub-page: https://dizparada.com/blog/critical-thinking-as-a-design-tool
+[20:37:11] [log] Hydration content found: #main
+[20:37:23] [log] Network idle timeout reached (continuing anyway)
+[20:37:23] [log] Waiting for font layout and response bodies
+[20:37:23] [log] Resources settled
+[20:37:23] [log]   Sub-page fetched: 290.5 KB
+[20:37:23] [log]   Saved: subpages/blog_critical-thinking-as-a-design-tool.html
+[20:37:23] [ok] Sub-pages crawled: 19
+[20:37:23] [log] Browser closed
+[20:37:23] [ok] Queued 308 resource(s) declared in HTML but never requested
+[20:37:23] [log] Starting download of 574 assets and their CSS/HTML dependencies
+[20:37:24] [warn] Download failed: https://hagen.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a3ebdcd79e9ff437/U8XswnDa52ljfe8dEUC7qci7Dp3SJqzsydSdt4vxHqE-1790022992-1.2.1.1-2KqB1GXqct.AKCT1Y8C.XQard1icLWRe7wr95Sdn0DeGA60gjsUEjTcSNHiM8MHO - HTTP 204
+[20:37:24] [warn] Download failed: https://www.youtube.com/ptracking?html5=1&video_id=tRz_TJ3gBuE&cpn=8YZU7vxwfZLTwL6o&ei=2pSxat6KFdmKvdIPlOeQ-Ao&ptk=youtube_none&pltype=contentugc - HTTP 204
+[20:37:24] [warn] Download failed: https://www.youtube.com/ptracking?html5=1&video_id=Tgl6ri_mmUc&cpn=0bV_4kAoznlfFpQX&ei=QpWxatfBBLDJmLAPj_fo8QU&ptk=youtube_none&pltype=contentugc - HTTP 204
+[20:37:31] [warn] Download failed: https://dizparada.com/blog/failed-asset-upload-placeholder - HTTP 404
+[20:37:43] [warn] Download failed: https://www.youtube.com/img/meh7.png - HTTP 404
+[20:39:03] [warn] Download failed: https://framerusercontent.com/images/8jAs54C40LMnM853ADpjcTIQw.gif - Asset download timeout
+[20:39:03] [warn] Download failed: https://framerusercontent.com/images/8jAs54C40LMnM853ADpjcTIQw.gif?scale-down-to=512&width=2276&height=1858 - Asset download timeout
+[20:39:03] [warn] Download failed: https://framerusercontent.com/images/8jAs54C40LMnM853ADpjcTIQw.gif?scale-down-to=1024&width=2276&height=1858 - Asset download timeout
+[20:39:03] [warn] Download failed: https://framerusercontent.com/images/8jAs54C40LMnM853ADpjcTIQw.gif?scale-down-to=2048&width=2276&height=1858 - Asset download timeout
+[20:39:03] [warn] Download failed: https://framerusercontent.com/images/8jAs54C40LMnM853ADpjcTIQw.gif?width=2276&height=1858 - Asset download timeout
+[20:39:03] [warn] Downloads complete: 574 succeeded, 256 from cache, 10 failed
+[20:39:03] [ok] Lazy-loaded chunks resolved: 11
+[20:39:03] [log] Starting HTML post-processing...
+[20:39:03] [log] HTML size: 501.7 KB
+[20:39:03] [ok] Index HTML pipeline complete
+[20:39:05] [log] Rewrote URLs in 50 JS/CSS files
+[20:39:05] [log] Rewrote resources in 7 embedded HTML documents
+[20:39:06] [ok] Sub-pages linked to local assets: 19/19
+[20:39:06] [warn] Rewrite pattern matched nothing: /\(function\(\)\{[\w$]+&&[\w$]+\(\(\)=>\{[\s\S]{0,200}?__framer-badge-container[\s\S]{0,300}?\}\)\}\)\(\)/g
+[20:39:06] [ok] Captured asset URLs rewritten to local paths
+[20:39:12] [ok] Formatted 98/98 JS/MJS files
+[20:39:12] [log] Writing index.html (574.3 KB)...
+[20:39:12] [ok] index.html written
+[20:39:12] [log] serve.js written
+[20:39:12] [log] package.json written for serve.js
+[20:39:12] [warn] 10 asset(s) could not be saved. See export-report.json.
+[20:39:12] [ok] Output build complete
+[20:39:12] [ok] Export complete!
