@@ -1,0 +1,13 @@
+{
+  "source": "https://dizparada.com/",
+  "platform": "framer",
+  "captureMode": "html-with-runtime",
+  "generatedAt": "2026-09-21T19:55:54.593Z",
+  "assets": 207,
+  "failedAssets": [],
+  "subpages": 0,
+  "visualValidation": "not-run",
+  "limitations": [
+    "Server-side accounts, payments, search and form processing are not exported."
+  ]
+}

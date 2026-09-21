@@ -1,0 +1,50 @@
+[19:55:38] [info] Source   : https://dizparada.com
+[19:55:38] [info] Output   : /tmp/dizparada-export
+[19:55:38] [info] Platform : Framer
+[19:55:38] [info] DPR      : 1
+[19:55:38] [info] Subpages : disabled (pass --subpages to crawl the whole site)
+[19:55:38] [log] Output directory structure created
+[19:55:38] [log] Fetching SSR HTML from https://dizparada.com
+[19:55:38] [ok] SSR HTML fetched (487.6 KB)
+[19:55:38] [log] Launching headless Chromium...
+[19:55:41] [ok] Chromium launched
+[19:55:41] [log] Stealth hardening applied (Chrome 148.0.7778.97)
+[19:55:41] [log] Viewport set to 1440x900 at 1x DPR
+[19:55:41] [log] Blocking 8 tracking domains:
+[19:55:41] [log]   - sentry.io
+[19:55:41] [log]   - www.googletagmanager.com
+[19:55:41] [log]   - connect.facebook.net
+[19:55:41] [log]   - stats.g.doubleclick.net
+[19:55:41] [log]   - google-analytics.com
+[19:55:41] [log]   - events.framer.com
+[19:55:41] [log]   - api.framer.com
+[19:55:41] [log]   - collect.frameranalytics.com
+[19:55:41] [log] Network interception enabled
+[19:55:41] [info] Navigating to https://dizparada.com
+[19:55:42] [ok] Document loaded; waiting for page content and resources
+[19:55:42] [log] Intercepted 0 resources, blocked 0 tracking requests, skipped 0 platform assets
+[19:55:42] [log] Checking DOM-based platform detection...
+[19:55:42] [log] Hydration content found: #main
+[19:55:47] [log] Waiting for font layout and response bodies
+[19:55:47] [log] Resources settled
+[19:55:47] [log] Captured HTML and CSSOM (501.7 KB)
+[19:55:47] [ok] Captured 79 network resources total
+[19:55:47] [log]   CSS: 0 | JS: 54 | Images: 22 | Fonts: 3
+[19:55:47] [log] Browser closed
+[19:55:47] [ok] Queued 108 resource(s) declared in HTML but never requested
+[19:55:47] [log] Starting download of 187 assets and their CSS/HTML dependencies
+[19:55:51] [ok] Downloads complete: 187 succeeded, 79 from cache
+[19:55:52] [ok] Lazy-loaded chunks resolved: 20
+[19:55:52] [log] Starting HTML post-processing...
+[19:55:52] [log] HTML size: 501.7 KB
+[19:55:52] [ok] Index HTML pipeline complete
+[19:55:52] [log] Rewrote URLs in 39 JS/CSS files
+[19:55:52] [warn] Rewrite pattern matched nothing: /\(function\(\)\{[\w$]+&&[\w$]+\(\(\)=>\{[\s\S]{0,200}?__framer-badge-container[\s\S]{0,300}?\}\)\}\)\(\)/g
+[19:55:52] [ok] Captured asset URLs rewritten to local paths
+[19:55:54] [ok] Formatted 74/74 JS/MJS files
+[19:55:54] [log] Writing index.html (514.9 KB)...
+[19:55:54] [ok] index.html written
+[19:55:54] [log] serve.js written
+[19:55:54] [log] package.json written for serve.js
+[19:55:54] [ok] Output build complete
+[19:55:54] [ok] Export complete!
